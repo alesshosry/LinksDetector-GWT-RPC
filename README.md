@@ -23,4 +23,5 @@ Metacello new
 	rpclinks := linksDetector links
 ``` 
 
-5. This library uses MoTion, in case it was not downloaded you can downloaded from here: https://github.com/alesshosry/MoTion 
+5. This library uses MoTion, in case it was not downloaded, you can find it here: https://github.com/alesshosry/MoTion 
+6. Don't forget to load package 'MoTion-Moose'  
