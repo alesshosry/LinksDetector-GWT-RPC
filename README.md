@@ -9,7 +9,7 @@ Usage:
 
 ```Smalltalk
 Metacello new
-    baseline: 'LinksDetector-GWT-RPC';
+    baseline: 'LinksDetectorGWTRPC';
     repository: 'github://AlessHosry/LinksDetector-GWT-RPC:main';
     load.
 ```  
