@@ -12,11 +12,15 @@ Metacello new
     baseline: 'LinksDetectorGWTRPC';
     repository: 'github://AlessHosry/LinksDetector-GWT-RPC:main';
     load.
-```  
+``` 
+ 
 4. Paste below code in playground:
-	```Smalltalk
-		linksDetector := LinksDetector new.
-		linksDetector model: (MooseModel root at: 1).  "Make sure the index is correct"
-	   	linksDetector detectAllLinks . 
-		rpclinks := linksDetector links
-	```
+
+```Smalltalk
+	linksDetector := LinksDetector new.
+	linksDetector model: (MooseModel root at: 1).  "Make sure the index is correct"
+   	linksDetector detectAllLinks . 
+	rpclinks := linksDetector links
+``` 
+
+5. This library uses MoTion, in case it was not downloaded you can downloaded from here: https://github.com/alesshosry/MoTion 
